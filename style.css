@@ -1,0 +1,100 @@
+body {
+    background-color: rgb(39, 134, 106);
+}
+header {
+    background-color: rgb(110, 176, 235);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+}
+
+h1 {
+    font-size: 60px;
+}
+.profile {
+    max-height: 200px;
+    margin: 20px;
+    border-radius: 12px;
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+}
+nav ul li {
+    margin: 8px 20px;
+    padding: 0px 5px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 25px;
+    font-weight: 700;
+    border: 1px solid darkblue;
+    border-radius: 5px;
+    background-color: teal;
+    box-shadow: 5px 5px 5px rgb(40, 40, 151);
+}
+
+nav ul li:hover {
+    color: lightblue;
+    box-shadow: 10px 10px 5px rgb(40, 40, 151);
+    cursor: pointer;
+    user-select: none;
+}
+nav ul li:focus {
+    color: lightblue;
+    box-shadow: 10px 10px 5px rgb(40, 40, 151);
+}
+
+nav ul li:link {
+    color: black;
+}
+
+nav ul li a:visited {
+    background-color: teal;
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:link {
+    background-color: teal;
+    color: black;
+    text-decoration: none;
+}
+nav ul li a:hover {
+    color: lightblue;
+}
+
+
+.work-img {
+    max-width: 350px;
+}
+
+p {
+    font-size: 20px;
+    line-height: 30px;
+    font-family: Arial, Helvetica, sans-serif ;
+}
+a:link {
+    color: rgb(25, 23, 179);
+}
+  
+a:visited {
+    color: rgb(25, 23, 179);
+}
+  
+a:hover {
+    color: rgb(25, 23, 179);
+    text-decoration: none  
+}
+
+a:active {
+    color: rgb(25, 23, 179);
+}
+
+
+footer {
+    background-color: rgb(110, 176, 235);
+}
+
+
+
