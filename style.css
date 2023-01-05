@@ -39,6 +39,7 @@ li a:active {
 
 .work-img {
     max-width: 350px;
+    border: 1px, solid, black;
 }
 
 p {
